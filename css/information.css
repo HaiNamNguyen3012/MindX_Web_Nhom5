@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.container .main{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.container .main .details{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container .main .details .left{
+    flex: 1;
+}
+/* #006340 */
