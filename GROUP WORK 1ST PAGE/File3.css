@@ -1,0 +1,195 @@
+.banner {
+    width:100%;
+    height:150px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    padding-top:120px;
+    padding-bottom:200px; 
+    margin:black solid 1px;
+    border:black solid 1px;
+}
+
+mark {
+    background: green;
+    color:white;
+}
+
+.search {
+    background-color:white;
+    width:700px;
+    height:50px;
+    text-align:left;
+    margin:auto;
+    padding:0px;
+    margin-top:20px;
+}
+
+.search_area{
+    width:60%;
+    height:50%;
+    margin-top:0px;
+
+}
+
+.box_1{
+    background-color:white;
+    width:100%;
+    height:45px;
+    border:1px solid  lightgray;
+    text-align:center;
+    padding-top: 10px;
+}
+
+.dong1{
+    font-size: 25px;
+    margin-top: 50px;
+    margin:25px;
+}
+
+.box_2{
+    background-color:rgb(233, 233, 233);
+    width:100%;
+    height:200px;
+    border:1px solid  rgb(233, 233, 233);
+    text-align:center;
+   
+
+}
+
+#box_3 {
+    height: 1500px; width:100%;
+   
+}
+
+#box_3_left,#box_3_mid,#box_3_right {
+    height:100%;float:left;
+
+}
+
+#box_3_left {
+    width:10%;background-color: white;
+}
+
+#box_3_mid {
+    width:80%;background-color: rgb(255, 255, 255);
+  
+}
+
+#box_3_right  {
+    width:10%;background-color:white;
+}
+
+
+.box_3_mid_1 {
+    width:100%;
+    height:20px;
+    background-color:white;
+    margin-top:10px;
+    
+}
+
+.Title{
+    color:black;
+    font-size: 20px;
+}
+
+
+
+.box_3_mid_2 {
+    width:100%;
+    height:200px;
+    background-color:white;
+    margin-top:20px;
+    
+}
+
+.photo_1 {
+    height:100%;
+    width: 23%;
+    background-color: white;
+    float: left;
+    MARGIN:3PX;
+    text-align: CENTER;
+}
+
+.photo_1 img{
+    height:100%;
+    max-width:100%;
+}
+    
+.box_3_mid_3 {
+    width:100%;
+    height:300px;
+    background-color:white;
+    margin-top:20px;
+    
+}
+
+.photo_2 {
+    height:100%;
+    width: 19%;
+    background-color: rgb(238, 238, 238);
+    float: left;
+    MARGIN:4PX;
+    text-align: CENTER;
+    border:1px solid rgb(207, 207, 207);
+    text-align:center;
+
+}
+
+.photo_2 img{
+    height:70%;
+    width:100%;
+}
+
+.box_3_mid_4 {
+    width:100%;
+    height:500px;
+    background-color: white;
+
+}
+
+.box_3_mid_4_left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    float:left;
+    margin:15px;
+
+}
+
+.news {
+    height:13%;
+    width:100%;
+    border-bottom: rgb(158, 158, 158) solid 1px;
+    padding-top:30px;
+}
+
+.box_3_mid_4_right{
+    margin:15px;
+    width: 54%;
+    height: 100%;
+    background-color: white;
+    float:left;
+
+}
+
+.photo_3 {
+    height:270px;
+    width: 31%;
+    background-color: rgb(236, 236, 236);
+    float: left;
+    MARGIN:4PX;
+    text-align: CENTER;
+    border:1px solid rgb(207, 207, 207);
+    text-align:center;
+    float:left;
+
+}
+
+.photo_3 img{
+    height:70%;
+    width:100%;
+}
