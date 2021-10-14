@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .banner {
     width:100%;
@@ -35,7 +35,6 @@ mark {
     width:60%;
     height:50%;
     margin-top:0px;
-
 }
 
 .box_1{
@@ -65,7 +64,6 @@ mark {
 
 #box_3 {
     height: 1500px; width:100%;
-   
 }
 
 #box_3_left,#box_3_mid,#box_3_right {
