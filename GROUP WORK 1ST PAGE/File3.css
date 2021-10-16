@@ -90,7 +90,6 @@ mark {
     height:20px;
     background-color:white;
     margin-top:10px;
-    
 }
 
 .Title{
@@ -105,21 +104,22 @@ mark {
     height:200px;
     background-color:white;
     margin-top:20px;
-    
+    margin-left: 20px;
+
 }
 
 .photo_1 {
     height:100%;
-    width: 23%;
+    width: 250px;
     background-color: white;
     float: left;
-    MARGIN:3PX;
-    text-align: CENTER;
+    margin:12px;
+    text-align: center;
 }
 
 .photo_1 img{
     height:100%;
-    max-width:100%;
+    width:90%;
 }
     
 .box_3_mid_3 {
@@ -127,6 +127,7 @@ mark {
     height:300px;
     background-color:white;
     margin-top:20px;
+    text-align:left;
     
 }
 
@@ -135,15 +136,14 @@ mark {
     width: 19%;
     background-color: rgb(238, 238, 238);
     float: left;
-    MARGIN:4PX;
-    text-align: CENTER;
+    MARGIN:5PX;
+    text-align: left;
     border:1px solid rgb(207, 207, 207);
-    text-align:center;
 
 }
 
 .photo_2 img{
-    height:70%;
+    height: 60%;
     width:100%;
 }
 
@@ -164,9 +164,9 @@ mark {
 }
 
 .news {
-    height:13%;
+    height:18%;
     width:100%;
-    border-bottom: rgb(158, 158, 158) solid 1px;
+    border-bottom: rgb(199, 199, 199) solid 1px;
     padding-top:30px;
 }
 
@@ -182,13 +182,13 @@ mark {
 .photo_3 {
     height:270px;
     width: 31%;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(241, 241, 241);
     float: left;
-    MARGIN:4PX;
     text-align: CENTER;
     border:1px solid rgb(207, 207, 207);
     text-align:center;
     float:left;
+    margin:6px;
 
 }
 
@@ -196,3 +196,28 @@ mark {
     height:70%;
     width:100%;
 }
+
+.product_name{
+    font-size: 16px;
+    margin:7px;
+    height:10%;
+    width:100%;
+ 
+}
+.lowest_ask{
+    font-size: 14px;
+    margin:7px;
+    color:rgb(119, 119, 119);
+}
+.product_price{
+    font-size: 20px;
+    margin:7px;
+}
+.sold_quantity{
+    font-size: 14px;
+    margin:7px;
+    color:rgb(119, 119, 119);
+}
+
+
+
