@@ -1,29 +1,20 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
     /* Kiểu chử */
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+body{
+    background: url("https://images.complex.com/complex/image/upload/c_crop,h_879,w_1563,x_36,y_12/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/g9xn8eq39gvhlw2othad.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
 section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
-}
-
-/* Ảnh chàn màn hình */
-section .img-bg{
-    position: relative;
-    width: 50%;
-    height: 100%;
-}
-/* Làm ảnh fit hơn */
-section .img-bg img{
-   position: relative;
-    height: 110%;
-    width: 100%;
-    object-fit: cover;
+    
 }
 
 /* Đặt nội dung theo hương thăng hàng và ngay ngắn */
@@ -34,6 +25,12 @@ section .noi__dung{
     justify-content: center;
     width: 50%;
     height: 100%;
+    z-index: 1;     /* Ưu tiên phần form đăng nhập lên*/
+    margin: auto;
+}
+
+section .noi__dung .form{
+    max-width: 700px;
 }
 
 /* Điều chỉnh của Trang Đăng Nhập */
@@ -49,11 +46,11 @@ section .noi__dung .form h2{
 
 section .noi__dung .form .name input{
     padding: 10px 20px;
-    width: 45%;
+    width: 48%;
     border-radius: 30px;
     margin-top: 8px;
     margin-bottom: 14px;
-    margin-left: 9px;
+    /* margin-left: 9px; */
     font-size: 15px;
     outline: none;
     background: transparent;
@@ -98,11 +95,11 @@ section .noi__dung .form .check-form span{
 
 
 section .noi__dung .form .check-form button {
-    width: 100.2%;
+    width: 97%;
     margin-top: 10px;
     margin-bottom: 15px;
     border: 0;
-    padding:  10px 20px;    /* Điều chỉnh độ rộng của nút Đăng Nhập*/
+    padding:  20px;    /* Điều chỉnh độ rộng của nút Đăng Nhập*/
     border-radius: 30px;  
     cursor: pointer;
     background-color: rgb(17, 146, 17);
@@ -196,12 +193,6 @@ section .img-bg{
     width: 100%;
     height: 100%;
  
-}
-
-section .noi__dung {
-    width: 100%;
-    height: 100%;
-    z-index: 1;     /* Ưu tiên phần form đăng nhập lên*/
 }
 
 section .noi__dung .form{

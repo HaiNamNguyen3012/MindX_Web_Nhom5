@@ -207,3 +207,42 @@ form.search{
 .container .main .relate-product .product-group .product img{
     width: 100%;
 }
+
+.container .main .product-details{
+    margin: 20px;
+    border-top: 1px solid black;
+}
+
+.container .main .product-details span{
+    display: inline-block;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container .main .product-details .detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container .main .product-details .detail .left{
+    flex: 1;
+}
+.container .main .product-details .detail .left span{
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+
+.container .main .product-details .detail .left span p{
+    display: inline-block;
+}
+.container .main .product-details .detail .left span:last-child{
+    text-align: right;
+}
+.container .main .product-details .detail .right{
+    flex: 2;
+}

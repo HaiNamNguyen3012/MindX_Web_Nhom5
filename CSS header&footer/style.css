@@ -1,5 +1,7 @@
 *{
     margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -8,7 +10,7 @@ body{
 
 .header{
     height: 100px;
-    background-color: white
+    background-color: white;
 }
 
 .grid{
@@ -124,8 +126,6 @@ body{
     background-color: #f4f4f1;
 }
 
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -328,4 +328,7 @@ margin: 0 auto;
     color: rgb(196, 31, 20)
 }
 
-
+header a,
+.list-menu a{
+    text-decoration: none;
+}
