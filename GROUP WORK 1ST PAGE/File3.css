@@ -59,8 +59,23 @@ mark {
     border:1px solid  rgb(233, 233, 233);
     text-align:center;
     background:url(https://luxuo.vn/wp-content/uploads/2019/11/A1AD8120-0E1D-421E-9C95-64022921A510.jpeg) no-repeat center;
-   
+    color:white;
+    
+}
 
+.slogan {
+    margin-top: 170px;
+    
+}
+
+#slogan_1 {
+    font-size: 45px;
+    
+}
+#slogan_2 {
+    font-size: 50px;
+    background-color: #00563F;
+    padding:5px;
 }
 
 #box_3 {
@@ -220,3 +235,12 @@ mark {
     color:rgb(119, 119, 119);
 }
 
+.see_all{
+    padding:4px;
+}
+
+.see_all:hover{
+    border:none;
+    background-color:rgb(230, 230, 230);
+    padding:4px;
+}
