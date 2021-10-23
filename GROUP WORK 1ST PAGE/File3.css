@@ -126,16 +126,17 @@ mark {
 
 .photo_1 {
     height:100%;
-    width: 250px;
+    width: 220px;
     background-color: white;
     float: left;
     margin:12px;
     text-align: center;
+    margin-left: 50px;
 }
 
 .photo_1 img{
     height:100%;
-    width:90%;
+    width:100%;
 }
     
 .box_3_mid_3 {
@@ -244,4 +245,15 @@ mark {
     background-color:rgb(230, 230, 230);
     padding:4px;
     border-radius: 15px;
+}
+.photo_2:hover{
+    border:1px solid black;
+}
+
+.photo_3:hover{
+    border:1px solid black;
+}
+
+.photo_1:hover{
+    border:1px solid rgb(194, 194, 194);
 }
