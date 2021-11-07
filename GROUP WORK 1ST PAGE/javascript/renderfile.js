@@ -19,18 +19,25 @@ let popular_brand_photo_data = [
 }
 ];
 
+
 function render_popular_brand_photo(){
-    popular_brand_photo.innerHTML +=  `
-    <div class = "photo_1">
-        
+    popular_brand_photo +=  `
+    <div id = "photo">
+    trang
 
     </div>`;
+
+}
+render_popular_brand_photo()
+console.log(document.getElementById("photo"))
+
+    /*
     for (let i = 0;i<popular_brand_photo_data.length;i=i+1) {
-        document.getElementsByClassName("photo_1") += `
+        document.getElementById("photo_1").innerHTML += `
         <a href = "`+ popular_brand_photo_data[i].url +`">
         <img src= "`+ popular_brand_photo_data[i].photo +`">
         </a> 
         `;
     }
 }
-render_popular_brand_photo();
+render_popular_brand_photo();*/
