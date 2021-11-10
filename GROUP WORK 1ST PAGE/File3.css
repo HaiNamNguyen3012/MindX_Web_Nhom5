@@ -101,7 +101,7 @@ mark {
 }
 
 
-.box_3_mid_1 {
+.main_title {
     width:100%;
     height:20px;
     background-color:white;
@@ -140,7 +140,7 @@ mark {
     width:100%;
 }
     
-.box_3_mid_3 {
+.main_data {
     width:100%;
     height:300px;
     background-color:white;
@@ -165,14 +165,14 @@ mark {
     width:100%;
 }
 
-.box_3_mid_4 {
+.news_area {
     width:100%;
     height:500px;
     background-color: white;
 
 }
 
-.box_3_mid_4_left{
+.news_area_left{
     width: 40%;
     height: 100%;
     background-color: white;
@@ -187,7 +187,7 @@ mark {
     padding-top:30px;
 }
 
-.box_3_mid_4_right{
+.news_area_right{
     margin:5px;
     width: 54%;
     height: 100%;
@@ -196,7 +196,7 @@ mark {
     margin-top:1.7%;
 }
 
-.photo_3 {
+.photo_6 {
     height:50%;
     width: 31%;
     background-color: rgb(243, 243, 243);
@@ -207,7 +207,7 @@ mark {
 
 }
 
-.photo_3 img{
+.photo_6 img{
     height:70%;
     width:100%;
 }
@@ -227,6 +227,11 @@ mark {
 .product_price{
     font-size: 20px;
     margin:7px;
+}
+.stock{
+    font-size: 14px;
+    margin:7px;
+    color:rgb(119, 119, 119);
 }
 .sold_quantity{
     font-size: 14px;
@@ -248,7 +253,7 @@ mark {
     border:1px solid black;
 }
 
-.photo_3:hover{
+.photo_6:hover{
     border:1px solid black;
 }
 
