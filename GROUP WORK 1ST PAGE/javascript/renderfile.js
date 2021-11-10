@@ -60,14 +60,19 @@ let master_data = [
     { name:'Adidas Energyfalcon', id: 35, type: 'Giày', price: 1850000, photo:'PHOTO/SHO7.jpeg', url: '#', rating: 1, stock: 1096, madein: 'Lào', year: 2021},
     { name:'Adidas Kaptir', id: 36, type: 'Giày', price: 1750000, photo:'PHOTO/SHO8.jpeg', url: '#', rating: 5, stock: 42, madein: 'Bangladesh', year: 2019},
     { name:'Adidas Continental 80', id: 37, type: 'Giày', price: 1650000, photo:'PHOTO/SHO9.jpeg', url: '#', rating: 4, stock: 1081, madein: 'Việt Nam', year: 2019},
-    { name:'Adidas AlphaEdge 4D', id: 38, type: 'Giày', price: 1350000, photo:'PHOTO/SHO10.jpeg', url: '#', rating: 2, stock: 860, madein: 'Việt Nam', year: 2019},
+    { name:'Adidas AlphaEdge 4D', id: 38, type: 'Giày', price: 1350000, photo:'PHOTO/SHO10.jpeg', url: '#', rating: 2, stock: 860, madein: 'Việt Nam', year: 2019}
 ];
 
-let most_popular_sneaker_photo = document.getElementsByClassName("most_popular_sneaker");
+let most_popular_sneaker_photo = document.getElementById("most_popular_sneaker");
 
+let formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'VND',
+    minimumFractionDigits: 0
+  })
 
 function render_most_popular_sneaker_photo(){
-    for (let j=0;j<4;j=j+1) {
+    for (let j=0;j<=4;j=j+1) {
     most_popular_sneaker_photo.innerHTML +=  `
     <a href = "`+ master_data[j].url +`">
         <div class="photo_2">
@@ -77,22 +82,58 @@ function render_most_popular_sneaker_photo(){
             </div>
             <div class="price_info">
                 <span class="lowest_ask">Lowest Ask</span><br>
-                <span class="product_price">`+master_data[j].price+`</span><br>
-                <span class="stock">`+master_data[j].stock+`</span><br>
+                <span class="stock">Stock `+ master_data[j].stock+`</span><br>
+                <span class="product_price">`+ 
+                formatter.format(master_data[j].price);+`
             </div>
         </div>
     </a> `
 }
 }
-/*
-     <div class="photo_2">
-                    <img src="PHOTO/SHO7.jpeg">
-                    <Br>
+render_most_popular_sneaker_photo()
 
-                    <div class="product_name">Nike Air Force 1 (New edition)
-                    </div>
-                    <div class="price_info">
-                        <span class="lowest_ask">Lowest Ask</span><br>
-                        <span class="product_price">$450</span><br>
-                        <span class="sold_quantity">150 Sold</span><br>
-                    </div>
+let trending_apparels = document.getElementById("trending_apparels");
+
+function render_trending_apparels_photo(){
+    for (let m=5;m<=9;m=m+1) {
+    trending_apparels.innerHTML +=  `
+    <a href = "`+ master_data[m].url +`">
+        <div class="photo_2">
+            <img src= "`+ master_data[m].photo +`">
+            <Br>
+            <div class="product_name">`+master_data[m].name+`
+            </div>
+            <div class="price_info">
+                <span class="lowest_ask">Lowest Ask</span><br>
+                <span class="stock">Stock `+ master_data[m].stock+`</span><br>
+                <span class="product_price">`+ 
+                formatter.format(master_data[m].price);+`
+            </div>
+        </div>
+    </a> `
+}
+}
+render_trending_apparels_photo()
+
+let bag = document.getElementById("bag");
+
+function render_bag_photo(){
+    for (let n=9;n<=14;n=+1) {
+    bag.innerHTML +=  `
+    <a href = "`+ master_data[n].url +`">
+        <div class="photo_2">
+            <img src= "`+ master_data[n].photo +`">
+            <Br>
+            <div class="product_name">`+master_data[n].name+`
+            </div>
+            <div class="price_info">
+                <span class="lowest_ask">Lowest Ask</span><br>
+                <span class="stock">Stock `+ master_data[n].stock+`</span><br>
+                <span class="product_price">`+ 
+                formatter.format(master_data[n].price);+`
+            </div>
+        </div>
+    </a> `
+}
+}
+render_bag_photo()
