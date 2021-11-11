@@ -52,7 +52,7 @@ mark {
     margin:25px;
 }
 
-.box_2{
+#main_theme{
     background-color:rgb(233, 233, 233);
     width:100%;
     height: 450px;
@@ -78,25 +78,25 @@ mark {
     padding:5px;
 }
 
-#box_3 {
+#main_data {
     height: 1500px; width:100%;
 }
 
-#box_3_left,#box_3_mid,#box_3_right {
+#main_data_left,#main_data_mid,#main_data_right {
     height:100%;float:left;
 
 }
 
-#box_3_left {
+#main_data_left {
     width:10%;background-color: white;
 }
 
-#box_3_mid {
+#main_data_mid {
     width:80%;background-color: rgb(255, 255, 255);
   
 }
 
-#box_3_right  {
+#main_data_right  {
     width:10%;background-color:white;
 }
 
@@ -165,19 +165,22 @@ mark {
     width:100%;
 }
 
-.news_area {
+#news_area {
     width:100%;
     height:500px;
     background-color: white;
+    text-decoration: none;    
 
 }
 
-.news_area_left{
+#news_area_left{
     width: 40%;
     height: 100%;
     background-color: white;
     float:left;
-   margin-top:2%;
+    margin-top:2%;
+    color:black;
+    text-decoration: none;
 }
 
 .news {
@@ -185,6 +188,7 @@ mark {
     width:100%;
     border-bottom: rgb(199, 199, 199) solid 1px;
     padding-top:30px;
+    text-decoration: none;
 }
 
 .news_area_right{
@@ -196,19 +200,20 @@ mark {
     margin-top:1.7%;
 }
 
-.photo_6 {
+.photo_3 {
     height:50%;
-    width: 31%;
+    width: 18%;
     background-color: rgb(243, 243, 243);
     float:left;
     border:1px solid rgb(207, 207, 207);
     text-align:center;
-    margin:0.7%;
+    margin:0.4%;
+    color:black;
 
 }
 
-.photo_6 img{
-    height:70%;
+.photo_3 img{
+    height:20%;
     width:100%;
 }
 
@@ -229,7 +234,7 @@ mark {
     font-size: 20px;
     margin:7px;
     color:black;
-    .dollars:before { content:'$'; }
+    
 }
 .stock{
     font-size: 14px;
@@ -256,7 +261,7 @@ mark {
     border:1px solid black;
 }
 
-.photo_6:hover{
+.photo_3:hover{
     border:1px solid black;
 }
 
