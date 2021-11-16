@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login-form/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <title>Đăng Nhập</title>
-</head>
-<body>
+const main = document.querySelector('.main');
 
-
-<section>
-    <div class="noi__dung">
-
-        <div class="form" >
+function render_login(){
+    main.innerHTML += `
+        <div class="noi__dung">
+            <div class="form">
                 <h2>Trang Đăng Nhập </h2>
-            <form action="">
+                <form action="">
                     <div class="input-form">
                         <span>Tên Người Dùng</span>
                         <input type="text">    
@@ -48,7 +37,8 @@
                         <li><i class="fab fa-twitter"></i></li>
                     </ul>
               </div>
-         </div>
-</section>
-</body>
-</html>
+        </div>
+    `
+}
+
+render_login();

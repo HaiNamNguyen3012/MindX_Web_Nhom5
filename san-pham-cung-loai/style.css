@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main .type{
+    width: 100%;
+    height: 250px;
+    background: url('./browse-headersSneakers.jpg') no-repeat center center;
+    justify-content: center;
+}
+
+.main .type .text-for-type{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+}
+
+.main .type .text-for-type h1{
+    padding-bottom: 10px;
+}
+
+.main .content{
+    width: 100%;
+    height: 1000%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.main .content .filter{
+    flex: 1;
+    height: auto;
+    margin-right: 10px;
+}
+
+.main .content .filter i{
+    margin-bottom: 10px;
+}
+
+.main .content .filter .filter-group{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.main .content .filter .filter-group h2{
+    padding: 10px 0;
+}
+
+.checked{
+    color: orange;
+}
+.main .content .product{
+    flex: 5;
+}
+
+.main .content .product .product-group{
+    float: left;
+    width: 23%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: black;
+}
+.main .content .product .product-group img{
+    width: 100%;
+    height: 200px;
+}
