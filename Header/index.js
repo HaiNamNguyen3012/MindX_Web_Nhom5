@@ -2,7 +2,7 @@ let page = document.getElementById('app');
 
 let header_item_list = [
     {
-        url: 'https://stockx.com/',
+        url: '../GROUP WORK 1ST PAGE/STOCKX.html',
         classes: 'header__navbar-item-sparate',
         title: 'StockX',
     },
@@ -51,14 +51,14 @@ let header_Item_right= [
 
 
     {
-        url: 'https://stockx.com/',
+        url: '../login-form/login.html',
         classes: 'header__navbar-item',
         title: 'Login',
     },
 
 
     {
-        url: 'https://stockx.com/',
+        url: '../register-form/register.html',
         classes: 'header__navbar-item',
         title: ' Sign Up',
     },
@@ -75,37 +75,37 @@ let header_Item_right= [
 let header_down = [
 
     {
-        url: 'https://stockx.com/sneakers ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: 'Sneaker '
     },
     {
-        url: 'https://stockx.com/streetwear ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: 'Streetwear '
     },
     {
-        url: 'https://stockx.com/electronics ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: 'Electronics '
     },
     {
-        url: 'https://stockx.com/trading-cards ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: ' Tranding Cards '
     },
     {
-        url: 'https://stockx.com/collectibles ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: 'Collectibles '
     },
     {
-        url: 'https://stockx.com/handbags',
+        url: '../san-pham-cung-loai/index.html',
         classes: 'list-navbar ',
         title: 'Handbags '
     },
     {
-        url: 'https://stockx.com/watches ',
+        url: '../san-pham-cung-loai/index.html ',
         classes: 'list-navbar ',
         title: 'Watches '
     },
@@ -228,13 +228,13 @@ function render_header_down(){
         `
         <div class="list-menu">
             <div class="grid__list-menu">
-                <span> <a href="https://stockx.com/sneakers" class="list-navbar"> Sneaker</a></span>
-                <span> <a href="https://stockx.com/streetwear" class="list-navbar"> Streetwear</a></span>
-                <span> <a href="https://stockx.com/electronics" class="list-navbar"> Electronics</a></span>
-                <span> <a href="https://stockx.com/trading-cards" class="list-navbar"> Tranding Cards</a></span>
-                <span> <a href="https://stockx.com/collectibles" class="list-navbar"> Collectibles</a></span>
-                <span> <a href="https://stockx.com/handbags" class="list-navbar"> Handbags</a></span>
-                <span> <a href="https://stockx.com/watches" class="list-navbar"> Watches</a></span>   
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Sneaker</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Streetwear</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Electronics</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Tranding Cards</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Collectibles</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Handbags</a></span>
+                <span> <a href="../san-pham-cung-loai/index.html" class="list-navbar"> Watches</a></span>   
             </div>
         </div>   
         `     
