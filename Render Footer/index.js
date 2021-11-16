@@ -1,5 +1,5 @@
 
-let page = document.getElementById('main');
+let footer = document.querySelector('.footer');
 
 
 
@@ -7,10 +7,8 @@ let page = document.getElementById('main');
 function render_footer(){
     
 
-            page.innerHTML +=
-            `
-            <div class="app">
-                 <footer class="footer"> 
+            footer.innerHTML +=
+            ` 
                  <div class="grid-footer">
                          <div class="grid__row"> 
                                 <div class="grid__colum-2-4">
@@ -113,9 +111,6 @@ function render_footer(){
                                 <li class="footer_icon-link footer_icon-link2"><i class="fab fa-google"></i></li>         
                         </ul>
                 </div>
-        </footer> 
-          
-        </div>
             `
         
     }

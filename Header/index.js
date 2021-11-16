@@ -1,4 +1,4 @@
-let page = document.getElementById('main');
+let page = document.getElementById('app');
 
 let header_item_list = [
     {
@@ -164,10 +164,6 @@ let header_down = [
 
 
 function header_Logo(){
-    page.innerHTML += 
-    `
-    <div id="app"> </div>
-    `
     for (let i = 0; i < header_item_list.length; i++) {
         document.getElementById('app').innerHTML += 
         `
@@ -227,24 +223,21 @@ header_Input();
     header_Item_Right();
 
 
-    function render_header_down(){
-     
-       
-            document.getElementById('app').innerHTML +=
-            `
-            <div class="list-menu">
-                   <div class="grid__list-menu">
-                   <span> <a href="https://stockx.com/sneakers" class="list-navbar"> Sneaker</a></span>
-                   <span> <a href="https://stockx.com/streetwear" class="list-navbar"> Streetwear</a></span>
-                   <span> <a href="https://stockx.com/electronics" class="list-navbar"> Electronics</a></span>
-                   <span> <a href="https://stockx.com/trading-cards" class="list-navbar"> Tranding Cards</a></span>
-                   <span> <a href="https://stockx.com/collectibles" class="list-navbar"> Collectibles</a></span>
-                   <span> <a href="https://stockx.com/handbags" class="list-navbar"> Handbags</a></span>
-                   <span> <a href="https://stockx.com/watches" class="list-navbar"> Watches</a></span>
-                       
-                   </div>
-             </div>   
-            `     
+function render_header_down(){
+        document.getElementById('app').innerHTML +=
+        `
+        <div class="list-menu">
+            <div class="grid__list-menu">
+                <span> <a href="https://stockx.com/sneakers" class="list-navbar"> Sneaker</a></span>
+                <span> <a href="https://stockx.com/streetwear" class="list-navbar"> Streetwear</a></span>
+                <span> <a href="https://stockx.com/electronics" class="list-navbar"> Electronics</a></span>
+                <span> <a href="https://stockx.com/trading-cards" class="list-navbar"> Tranding Cards</a></span>
+                <span> <a href="https://stockx.com/collectibles" class="list-navbar"> Collectibles</a></span>
+                <span> <a href="https://stockx.com/handbags" class="list-navbar"> Handbags</a></span>
+                <span> <a href="https://stockx.com/watches" class="list-navbar"> Watches</a></span>   
+            </div>
+        </div>   
+        `     
         
 }
 render_header_down();
@@ -448,7 +441,5 @@ render_header_down();
         </div>
 </ul>        
         `
-
-    }
-
-    list_Menu();
+}
+list_Menu();
